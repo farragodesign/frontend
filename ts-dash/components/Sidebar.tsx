@@ -5,7 +5,11 @@ import { RxSketchLogo, RxDashboard, RxPerson } from 'react-icons/rx';
 import { HiOutlineShoppingBag } from 'react-icons/hi';
 import { FiSettings } from 'react-icons/fi';
 
-const Sidebar = ({ children }) => {
+const Sidebar = ({
+  children,
+}: {
+  children: React.ReactNode
+}) => {
   return (
     <div className='flex'>
       <div className='fixed w-20 h-screen p-4 bg-white border-r-[1px] flex flex-col justify-between'>
