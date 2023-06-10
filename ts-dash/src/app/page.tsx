@@ -1,14 +1,12 @@
-import '@/styles/globals.css';
 import React from 'react';
-import Head from 'next/head';
 import Header from '../../components/Header';
 import TopCards from '../../components/TopCards';
 import BarChart from '../../components/BarChart';
 import RecentOrders from '../../components/RecentOrders';
+import Head from 'next/head';
 
-export default function App({ }) {
+export default function Page({ }) {
   return (
-    <>
       <main className='bg-gray-100 min-h-screen'>
         <Header />
         <TopCards />
@@ -17,6 +15,5 @@ export default function App({ }) {
           <RecentOrders />
         </div>
       </main>
-    </>
   );
 }
