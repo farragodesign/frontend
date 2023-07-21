@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 body {
-  background: #000000;
+  background: #ffffff;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 7px;
 }
 
 /* Track */
