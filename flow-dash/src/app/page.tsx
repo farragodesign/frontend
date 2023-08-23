@@ -2,6 +2,7 @@
 import { Card } from "@/components/Card";
 
 export default function Page() {
+  
   const data = [
     { title: "Title 1", count: '341234' },
     { title: "Title 2", count: '341234' },

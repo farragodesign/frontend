@@ -1,0 +1,7 @@
+overwrite: true
+schema: "https://result-gen.vercel.app/graphql"
+documents: "graphql/**/*.graphql"
+generates:
+  generated.tsx:
+    preset: "client"
+    plugins: []
